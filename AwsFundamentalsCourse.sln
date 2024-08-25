@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.Lambda", "8.Lambda", "{DC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsPublishser", "3.Sqs\SqsPublishser\SqsPublishser.csproj", "{EDA1160E-323C-4249-846D-9E624B1B5C5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsConsumer", "3.Sqs\SqsConsumer\SqsConsumer.csproj", "{42249D54-0779-4E60-B0E6-9323A0562005}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,11 +23,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EDA1160E-323C-4249-846D-9E624B1B5C5B} = {AE28BEE1-B578-439A-B596-D991B9851F5A}
+		{42249D54-0779-4E60-B0E6-9323A0562005} = {AE28BEE1-B578-439A-B596-D991B9851F5A}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EDA1160E-323C-4249-846D-9E624B1B5C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EDA1160E-323C-4249-846D-9E624B1B5C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDA1160E-323C-4249-846D-9E624B1B5C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDA1160E-323C-4249-846D-9E624B1B5C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42249D54-0779-4E60-B0E6-9323A0562005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42249D54-0779-4E60-B0E6-9323A0562005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42249D54-0779-4E60-B0E6-9323A0562005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42249D54-0779-4E60-B0E6-9323A0562005}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
