@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsConsumer", "4.Sns\SqsCon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Api", "4.Sns\Customers.Api\Customers.Api.csproj", "{AE60DB56-92D5-4757-B514-89D6BFC023B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Api", "5.DynamoDb\Customers.Api\Customers.Api.csproj", "{5D58DD88-5386-4D26-AD47-90AB66D82F00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,7 @@ Global
 		{71C18F0B-5CDE-424F-A657-6D119AA32D1E} = {BA648C25-CB9E-4FAA-AF91-86A37CCEA382}
 		{1DF81355-0117-4117-8F7B-61068D1B0A3B} = {BA648C25-CB9E-4FAA-AF91-86A37CCEA382}
 		{AE60DB56-92D5-4757-B514-89D6BFC023B8} = {BA648C25-CB9E-4FAA-AF91-86A37CCEA382}
+		{5D58DD88-5386-4D26-AD47-90AB66D82F00} = {2C17779A-FD5B-4980-BEB0-4A19912178B7}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EDA1160E-323C-4249-846D-9E624B1B5C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -69,5 +72,9 @@ Global
 		{AE60DB56-92D5-4757-B514-89D6BFC023B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE60DB56-92D5-4757-B514-89D6BFC023B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE60DB56-92D5-4757-B514-89D6BFC023B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D58DD88-5386-4D26-AD47-90AB66D82F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D58DD88-5386-4D26-AD47-90AB66D82F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D58DD88-5386-4D26-AD47-90AB66D82F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D58DD88-5386-4D26-AD47-90AB66D82F00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
