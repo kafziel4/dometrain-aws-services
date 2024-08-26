@@ -44,6 +44,12 @@ public class CustomerService : ICustomerService
         return customerDto?.ToCustomer();
     }
 
+    public async Task<Customer?> GetByEmailAsync(string email)
+    {
+        var customerDto = await _customerRepository.GetByEmailAsync(email);
+        return customerDto?.ToCustomer();
+    }
+
     public async Task<IEnumerable<Customer>> GetAllAsync()
     {
         var customerDtos = await _customerRepository.GetAllAsync();
