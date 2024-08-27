@@ -42,6 +42,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLambda", "8.Lambda\Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHttpLambda", "8.Lambda\SimpleHttpLambda\SimpleHttpLambda.csproj", "{3A0386FE-2CD0-4B9B-B034-87E7D40522B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSqsLambda", "8.Lambda\SimpleSqsLambda\SimpleSqsLambda.csproj", "{A1A39D9E-F04D-4096-A71D-153DD909ECEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,7 @@ Global
 		{E17E821C-242B-4FF3-94E6-8783228D695E} = {8D27D9CA-8D14-4CD6-9827-A0837CFB03C3}
 		{A20CC8AB-9EA2-46DA-BE52-27859299C27A} = {DC84F474-F046-44B8-8D2E-BCE6A285FDF5}
 		{3A0386FE-2CD0-4B9B-B034-87E7D40522B3} = {DC84F474-F046-44B8-8D2E-BCE6A285FDF5}
+		{A1A39D9E-F04D-4096-A71D-153DD909ECEA} = {DC84F474-F046-44B8-8D2E-BCE6A285FDF5}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EDA1160E-323C-4249-846D-9E624B1B5C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -125,5 +128,9 @@ Global
 		{3A0386FE-2CD0-4B9B-B034-87E7D40522B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A0386FE-2CD0-4B9B-B034-87E7D40522B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A0386FE-2CD0-4B9B-B034-87E7D40522B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1A39D9E-F04D-4096-A71D-153DD909ECEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A39D9E-F04D-4096-A71D-153DD909ECEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A39D9E-F04D-4096-A71D-153DD909ECEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A39D9E-F04D-4096-A71D-153DD909ECEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
